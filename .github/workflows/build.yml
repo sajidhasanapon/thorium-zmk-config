@@ -11,7 +11,7 @@ jobs:
       commit_message: "[Draw] ${{ github.event.head_commit.message }}"
       amend_commit: false
       install_branch: "main"
-      keymap_patterns: "config/*.keymap"
+      keymap_patterns: "config/boards/shields/thorium/*.keymap"
       json_path: "config"
       config_path: "keymap_drawer.config.yaml"  # config file; ignored if it does not exist
       output_folder: "keymap-drawer"
